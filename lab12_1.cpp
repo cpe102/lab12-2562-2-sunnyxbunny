@@ -19,6 +19,8 @@ int main()
 
 //Write definition of stat() here 
 void stat(const double A[], int N, double B[]){
+	B[2] = A[0];
+	B[3] = A[0];
 	double sum,yy=0,max,min;
 	for(int i=0; i<N; i++){
 		sum+=A[i];
